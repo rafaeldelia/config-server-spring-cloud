@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+config-server-service:
+  greeting: Botafogo
+  default-value: classificado para Libertadores

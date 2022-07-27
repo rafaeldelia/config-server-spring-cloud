@@ -1,0 +1,14 @@
+#vamos recuperar estes param na classe Configuration.java
+spring:
+  application:
+    name: config-server-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+#nome de sugestão
+config-server-service:
+  greeting: "Botafogo"
+  default-value: "classificado para a Sulamericana"
